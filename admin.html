@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>admin</title>
+        <link rel="stylesheet" href="admin1.css">
+        <style>
+            body{
+                background-image: url("background1.jpg");
+            }
+
+        </style>
+    </head>
+    <body>
+         <script src="admin3.jsp"></script>
+         <div class="admin-form">
+            <h2>Admin Page</h2>
+            <form action="#" method="post">
+                <label for="adminName">Admin Name:</label>
+                <input type="text" id="adminName" name="adminName" required><br><br>
+                
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required><br><br>
+                
+                <label for="confirmPassword">Confirm Password:</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" required><br><br>
+                
+                <button type="button" onclick="navToHome()">Submit</button>
+                <button type="button" onclick="clearFields()">Clear</button>
+            </form>
+        </div>
+        </html>
+    </body>
+</html>

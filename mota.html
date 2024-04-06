@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            background-color: #111;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 600px;
+            background-color: #181818;
+            border: 1px solid #282828;
+            border-radius: 8px;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+
+        .header {
+            background-color: #282828;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+            color: #1db954;
+            font-size: 1.5em;
+        }
+
+        .payment-details {
+            padding: 20px;
+        }
+
+        .payment-info {
+            margin-bottom: 10px;
+        }
+
+        .payment-pic {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+            border: 2px solid #1db954;
+        }
+
+        .history-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .history-item {
+            margin-bottom: 5px;
+        }
+
+        .payment-method {
+            font-weight: bold;
+            color: #1db954;
+        }
+
+        .amount {
+            font-weight: bold;
+            color: #1db954;
+            font-size: 1.5em;
+        }
+    </style>
+    <title>Payment History</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Payment Success</h1>
+        </div>
+        <div class="payment-details">
+            <img class="payment-pic" src="suc.jpg" alt="Profile Picture">
+            <div class="payment-info">
+                <strong>Subscription Validity:</strong> 12 May to 20 Aug
+            </div>
+            <div class="payment-info">
+                <strong>Transaction ID:</strong> 330007349142
+            </div>
+            <div class="payment-info">
+                <strong>From:</strong> prasunpatra@oksbibank
+            </div>
+            <div class="payment-info">
+                <strong>Google Transaction ID:</strong> CICAgNDuhZm4RQ
+            </div>
+            <div class="payment-info">
+                <strong>Payment History:</strong>
+                <ul class="history-list">
+                    <li class="history-item">Aug 19 to Nov 19</li>
+                    <li class="history-item">Mar 20 to June 20</li>
+                    <li class="history-item">Sep 20 to Dec 20</li>
+                    <li class="history-item">Jan 21 to Mar 21</li>
+                </ul>
+            </div>
+            <div class="payment-info">
+                <strong>Payment Method:</strong> <span class="payment-method">Google Pay</span>
+            </div>
+            <div class="payment-info">
+                <strong>Amount:</strong> <span class="amount"> $199 </span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

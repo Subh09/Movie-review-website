@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logout Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        #backToLogin {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        #backToLogin:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Logout Successful</h1>
+
+    <button id="backToLogin">Back to Login Page</button>
+
+    <script>
+        // JavaScript to handle the button click event
+        document.getElementById('backToLogin').addEventListener('click', function() {
+            // Redirect to the login page (replace 'login.html' with your actual login page)
+            window.location.href = 'index.html';
+        });
+    </script>
+
+</body>
+</html>

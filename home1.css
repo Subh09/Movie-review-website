@@ -1,0 +1,80 @@
+/* Reset some default styles to ensure consistency across browsers */
+body, h1, h2, p, ul {
+    margin:  0;
+    padding: 0;
+
+}
+
+/* Apply styles to the body element */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('background.jpg');
+}
+
+/* Style the header */
+header {
+    background-image: url('bg.jpg');
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Style the main section */
+.main {
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* Style the slideshow container */
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style individual slides */
+.mySlides {
+    display: none;
+    background-image: url('bg.jpg');
+    text-align: center;
+    padding: 50px;
+}
+
+.mySlides h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.mySlides p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+/* Style the footer */
+footer {
+    text-align:center;
+    background-color: #000000;
+    color: #fff;
+    padding: 8px;
+    margin-top: 550px;
+}
+

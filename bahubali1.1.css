@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 150vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.movie-info {
+    margin-bottom: 20px;
+}
+
+.stars {
+    font-size: 36px;
+    cursor: pointer;
+}
+
+.star {
+    color: gold;
+}
+
+.star:hover {
+    transform: scale(1.2);
+}
+h1{
+    color: blueviolet;
+}
+h2{
+    color: rgb(187, 78, 78);
+}
+U{
+    color: rgb(172, 63, 63);
+}
+h3{
+    color: blue;
+}
+p{
+    color: rgb(64, 64, 146);
+}
+body{
+    background-color: black;
+}
+div{
+    color: white;
+}
+h4{
+    color: rgb(164, 45, 65);
+}
+strong{
+    color: rgb(44, 159, 159);
+}

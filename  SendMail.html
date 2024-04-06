@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form method="post" action="http://localhost:8080/TestWeb/SendMail">
+                <div>
+                    <table>
+                        <thead>
+                            <tr><th>SEND A MAIL</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>To: </td><td><input type="text" name="tbTo"/></td></tr>
+                            <tr><td>CC: </td><td><input type="text" name="tbCC"/></td></tr>
+                            <tr><td>BCC: </td><td><input type="text" name="tbBCC"/></td></tr>
+                            <tr><td>Subject: </td><td><input type="text" name="tbSubject"/></td></tr>
+                            <tr><td>Body: </td><td><textarea rows="10" cols="17" name="taBody"></textarea></td></tr>
+                            <tr><td><input type="submit" value="Send"/></td><td><input type="reset" value="Clear"></td></tr>
+                        </tbody>
+                        <tfoot></tfoot>
+                    </table>
+                </div>
+            </form>
+    </body>
+</html>
